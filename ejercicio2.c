@@ -7,10 +7,10 @@ int main(){
     printf("Ingrese los 3 lados del triángulo:");
     scanf("%d  %d  %d", &lado1,&lado2,&lado3);
     if(lado1 + lado2 > lado3 && lado2+lado3 >lado1 && lado1 +lado3 >lado2){
-       if(lado1 = lado2 || lado1 = lado3 || lado2 = lado3){
+       if(lado1 == lado2 || lado1 == lado3 || lado2 == lado3){
           strcpy(tipo,"isoceles"); 
        }
-    }else if (lado1 = lado2 && lado2 = lado3){
+    }else if (lado1 == lado2 && lado2 == lado3){
         strcpy(tipo,"equilatero");
     }else {
         strcpy(tipo,"escaleno");
