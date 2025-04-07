@@ -15,5 +15,6 @@ int main(){
     }else {
         strcpy(tipo,"escaleno");
     }
+    printf("El triangulo es %s.\n",tipo);
     return 0;
 }
